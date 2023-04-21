@@ -1,0 +1,102 @@
+prompt,classname,classidx
+"a photo of apple pie, a type of food.",apple_pie,0
+"a photo of baby back ribs, a type of food.",baby_back_ribs,1
+"a photo of baklava, a type of food.",baklava,2
+"a photo of beef carpaccio, a type of food.",beef_carpaccio,3
+"a photo of beef tartare, a type of food.",beef_tartare,4
+"a photo of beet salad, a type of food.",beet_salad,5
+"a photo of beignets, a type of food.",beignets,6
+"a photo of bibimbap, a type of food.",bibimbap,7
+"a photo of bread pudding, a type of food.",bread_pudding,8
+"a photo of breakfast burrito, a type of food.",breakfast_burrito,9
+"a photo of bruschetta, a type of food.",bruschetta,10
+"a photo of caesar salad, a type of food.",caesar_salad,11
+"a photo of cannoli, a type of food.",cannoli,12
+"a photo of caprese salad, a type of food.",caprese_salad,13
+"a photo of carrot cake, a type of food.",carrot_cake,14
+"a photo of ceviche, a type of food.",ceviche,15
+"a photo of cheese plate, a type of food.",cheese_plate,16
+"a photo of cheesecake, a type of food.",cheesecake,17
+"a photo of chicken curry, a type of food.",chicken_curry,18
+"a photo of chicken quesadilla, a type of food.",chicken_quesadilla,19
+"a photo of chicken wings, a type of food.",chicken_wings,20
+"a photo of chocolate cake, a type of food.",chocolate_cake,21
+"a photo of chocolate mousse, a type of food.",chocolate_mousse,22
+"a photo of churros, a type of food.",churros,23
+"a photo of clam chowder, a type of food.",clam_chowder,24
+"a photo of club sandwich, a type of food.",club_sandwich,25
+"a photo of crab cakes, a type of food.",crab_cakes,26
+"a photo of creme brulee, a type of food.",creme_brulee,27
+"a photo of croque madame, a type of food.",croque_madame,28
+"a photo of cup cakes, a type of food.",cup_cakes,29
+"a photo of deviled eggs, a type of food.",deviled_eggs,30
+"a photo of donuts, a type of food.",donuts,31
+"a photo of dumplings, a type of food.",dumplings,32
+"a photo of edamame, a type of food.",edamame,33
+"a photo of eggs benedict, a type of food.",eggs_benedict,34
+"a photo of escargots, a type of food.",escargots,35
+"a photo of falafel, a type of food.",falafel,36
+"a photo of filet mignon, a type of food.",filet_mignon,37
+"a photo of fish and chips, a type of food.",fish_and_chips,38
+"a photo of foie gras, a type of food.",foie_gras,39
+"a photo of french fries, a type of food.",french_fries,40
+"a photo of french onion soup, a type of food.",french_onion_soup,41
+"a photo of french toast, a type of food.",french_toast,42
+"a photo of fried calamari, a type of food.",fried_calamari,43
+"a photo of fried rice, a type of food.",fried_rice,44
+"a photo of frozen yogurt, a type of food.",frozen_yogurt,45
+"a photo of garlic bread, a type of food.",garlic_bread,46
+"a photo of gnocchi, a type of food.",gnocchi,47
+"a photo of greek salad, a type of food.",greek_salad,48
+"a photo of grilled cheese sandwich, a type of food.",grilled_cheese_sandwich,49
+"a photo of grilled salmon, a type of food.",grilled_salmon,50
+"a photo of guacamole, a type of food.",guacamole,51
+"a photo of gyoza, a type of food.",gyoza,52
+"a photo of hamburger, a type of food.",hamburger,53
+"a photo of hot and sour soup, a type of food.",hot_and_sour_soup,54
+"a photo of hot dog, a type of food.",hot_dog,55
+"a photo of huevos rancheros, a type of food.",huevos_rancheros,56
+"a photo of hummus, a type of food.",hummus,57
+"a photo of ice cream, a type of food.",ice_cream,58
+"a photo of lasagna, a type of food.",lasagna,59
+"a photo of lobster bisque, a type of food.",lobster_bisque,60
+"a photo of lobster roll sandwich, a type of food.",lobster_roll_sandwich,61
+"a photo of macaroni and cheese, a type of food.",macaroni_and_cheese,62
+"a photo of macarons, a type of food.",macarons,63
+"a photo of miso soup, a type of food.",miso_soup,64
+"a photo of mussels, a type of food.",mussels,65
+"a photo of nachos, a type of food.",nachos,66
+"a photo of omelette, a type of food.",omelette,67
+"a photo of onion rings, a type of food.",onion_rings,68
+"a photo of oysters, a type of food.",oysters,69
+"a photo of pad thai, a type of food.",pad_thai,70
+"a photo of paella, a type of food.",paella,71
+"a photo of pancakes, a type of food.",pancakes,72
+"a photo of panna cotta, a type of food.",panna_cotta,73
+"a photo of peking duck, a type of food.",peking_duck,74
+"a photo of pho, a type of food.",pho,75
+"a photo of pizza, a type of food.",pizza,76
+"a photo of pork chop, a type of food.",pork_chop,77
+"a photo of poutine, a type of food.",poutine,78
+"a photo of prime rib, a type of food.",prime_rib,79
+"a photo of pulled pork sandwich, a type of food.",pulled_pork_sandwich,80
+"a photo of ramen, a type of food.",ramen,81
+"a photo of ravioli, a type of food.",ravioli,82
+"a photo of red velvet cake, a type of food.",red_velvet_cake,83
+"a photo of risotto, a type of food.",risotto,84
+"a photo of samosa, a type of food.",samosa,85
+"a photo of sashimi, a type of food.",sashimi,86
+"a photo of scallops, a type of food.",scallops,87
+"a photo of seaweed salad, a type of food.",seaweed_salad,88
+"a photo of shrimp and grits, a type of food.",shrimp_and_grits,89
+"a photo of spaghetti bolognese, a type of food.",spaghetti_bolognese,90
+"a photo of spaghetti carbonara, a type of food.",spaghetti_carbonara,91
+"a photo of spring rolls, a type of food.",spring_rolls,92
+"a photo of steak, a type of food.",steak,93
+"a photo of strawberry shortcake, a type of food.",strawberry_shortcake,94
+"a photo of sushi, a type of food.",sushi,95
+"a photo of tacos, a type of food.",tacos,96
+"a photo of takoyaki, a type of food.",takoyaki,97
+"a photo of tiramisu, a type of food.",tiramisu,98
+"a photo of tuna tartare, a type of food.",tuna_tartare,99
+"a photo of waffles, a type of food.",waffles,100

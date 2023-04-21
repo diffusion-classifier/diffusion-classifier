@@ -1,0 +1,32 @@
+name: diffusion-classifier
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - ipdb
+  - flake8
+  - ipykernel
+  - pytest
+  - pytest-env
+  - tqdm
+  - numpy
+  - pytorch>=1.11.0
+  - torchvision>=0.12.0
+  - nvidia::cudatoolkit
+  - wandb
+  - tensorboard
+  - transformers>=4.14.1
+  - diffusers
+  - accelerate
+  - xformers::xformers
+  - seaborn
+  - cuda-nvcc
+  - pip:
+    - git+https://github.com/modestyachts/ImageNetV2_pytorch
+variables:
+  CACHE_NUMBER: 0

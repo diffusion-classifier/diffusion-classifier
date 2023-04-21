@@ -1,0 +1,101 @@
+prompt,classname,classidx
+"a photo of a 707-320, a type of aircraft.",707-320,0
+"a photo of a 727-200, a type of aircraft.",727-200,1
+"a photo of a 737-200, a type of aircraft.",737-200,2
+"a photo of a 737-300, a type of aircraft.",737-300,3
+"a photo of a 737-400, a type of aircraft.",737-400,4
+"a photo of a 737-500, a type of aircraft.",737-500,5
+"a photo of a 737-600, a type of aircraft.",737-600,6
+"a photo of a 737-700, a type of aircraft.",737-700,7
+"a photo of a 737-800, a type of aircraft.",737-800,8
+"a photo of a 737-900, a type of aircraft.",737-900,9
+"a photo of a 747-100, a type of aircraft.",747-100,10
+"a photo of a 747-200, a type of aircraft.",747-200,11
+"a photo of a 747-300, a type of aircraft.",747-300,12
+"a photo of a 747-400, a type of aircraft.",747-400,13
+"a photo of a 757-200, a type of aircraft.",757-200,14
+"a photo of a 757-300, a type of aircraft.",757-300,15
+"a photo of a 767-200, a type of aircraft.",767-200,16
+"a photo of a 767-300, a type of aircraft.",767-300,17
+"a photo of a 767-400, a type of aircraft.",767-400,18
+"a photo of a 777-200, a type of aircraft.",777-200,19
+"a photo of a 777-300, a type of aircraft.",777-300,20
+"a photo of a A300B4, a type of aircraft.",A300B4,21
+"a photo of a A310, a type of aircraft.",A310,22
+"a photo of a A318, a type of aircraft.",A318,23
+"a photo of a A319, a type of aircraft.",A319,24
+"a photo of a A320, a type of aircraft.",A320,25
+"a photo of a A321, a type of aircraft.",A321,26
+"a photo of a A330-200, a type of aircraft.",A330-200,27
+"a photo of a A330-300, a type of aircraft.",A330-300,28
+"a photo of a A340-200, a type of aircraft.",A340-200,29
+"a photo of a A340-300, a type of aircraft.",A340-300,30
+"a photo of a A340-500, a type of aircraft.",A340-500,31
+"a photo of a A340-600, a type of aircraft.",A340-600,32
+"a photo of a A380, a type of aircraft.",A380,33
+"a photo of a ATR-42, a type of aircraft.",ATR-42,34
+"a photo of a ATR-72, a type of aircraft.",ATR-72,35
+"a photo of a An-12, a type of aircraft.",An-12,36
+"a photo of a BAE 146-200, a type of aircraft.",BAE 146-200,37
+"a photo of a BAE 146-300, a type of aircraft.",BAE 146-300,38
+"a photo of a BAE-125, a type of aircraft.",BAE-125,39
+"a photo of a Beechcraft 1900, a type of aircraft.",Beechcraft 1900,40
+"a photo of a Boeing 717, a type of aircraft.",Boeing 717,41
+"a photo of a C-130, a type of aircraft.",C-130,42
+"a photo of a C-47, a type of aircraft.",C-47,43
+"a photo of a CRJ-200, a type of aircraft.",CRJ-200,44
+"a photo of a CRJ-700, a type of aircraft.",CRJ-700,45
+"a photo of a CRJ-900, a type of aircraft.",CRJ-900,46
+"a photo of a Cessna 172, a type of aircraft.",Cessna 172,47
+"a photo of a Cessna 208, a type of aircraft.",Cessna 208,48
+"a photo of a Cessna 525, a type of aircraft.",Cessna 525,49
+"a photo of a Cessna 560, a type of aircraft.",Cessna 560,50
+"a photo of a Challenger 600, a type of aircraft.",Challenger 600,51
+"a photo of a DC-10, a type of aircraft.",DC-10,52
+"a photo of a DC-3, a type of aircraft.",DC-3,53
+"a photo of a DC-6, a type of aircraft.",DC-6,54
+"a photo of a DC-8, a type of aircraft.",DC-8,55
+"a photo of a DC-9-30, a type of aircraft.",DC-9-30,56
+"a photo of a DH-82, a type of aircraft.",DH-82,57
+"a photo of a DHC-1, a type of aircraft.",DHC-1,58
+"a photo of a DHC-6, a type of aircraft.",DHC-6,59
+"a photo of a DHC-8-100, a type of aircraft.",DHC-8-100,60
+"a photo of a DHC-8-300, a type of aircraft.",DHC-8-300,61
+"a photo of a DR-400, a type of aircraft.",DR-400,62
+"a photo of a Dornier 328, a type of aircraft.",Dornier 328,63
+"a photo of a E-170, a type of aircraft.",E-170,64
+"a photo of a E-190, a type of aircraft.",E-190,65
+"a photo of a E-195, a type of aircraft.",E-195,66
+"a photo of a EMB-120, a type of aircraft.",EMB-120,67
+"a photo of a ERJ 135, a type of aircraft.",ERJ 135,68
+"a photo of a ERJ 145, a type of aircraft.",ERJ 145,69
+"a photo of a Embraer Legacy 600, a type of aircraft.",Embraer Legacy 600,70
+"a photo of a Eurofighter Typhoon, a type of aircraft.",Eurofighter Typhoon,71
+"a photo of a F-16A/B, a type of aircraft.",F-16A_B,72
+"a photo of a F/A-18, a type of aircraft.",F_A-18,73
+"a photo of a Falcon 2000, a type of aircraft.",Falcon 2000,74
+"a photo of a Falcon 900, a type of aircraft.",Falcon 900,75
+"a photo of a Fokker 100, a type of aircraft.",Fokker 100,76
+"a photo of a Fokker 50, a type of aircraft.",Fokker 50,77
+"a photo of a Fokker 70, a type of aircraft.",Fokker 70,78
+"a photo of a Global Express, a type of aircraft.",Global Express,79
+"a photo of a Gulfstream IV, a type of aircraft.",Gulfstream IV,80
+"a photo of a Gulfstream V, a type of aircraft.",Gulfstream V,81
+"a photo of a Hawk T1, a type of aircraft.",Hawk T1,82
+"a photo of a Il-76, a type of aircraft.",Il-76,83
+"a photo of a L-1011, a type of aircraft.",L-1011,84
+"a photo of a MD-11, a type of aircraft.",MD-11,85
+"a photo of a MD-80, a type of aircraft.",MD-80,86
+"a photo of a MD-87, a type of aircraft.",MD-87,87
+"a photo of a MD-90, a type of aircraft.",MD-90,88
+"a photo of a Metroliner, a type of aircraft.",Metroliner,89
+"a photo of a Model B200, a type of aircraft.",Model B200,90
+"a photo of a PA-28, a type of aircraft.",PA-28,91
+"a photo of a SR-20, a type of aircraft.",SR-20,92
+"a photo of a Saab 2000, a type of aircraft.",Saab 2000,93
+"a photo of a Saab 340, a type of aircraft.",Saab 340,94
+"a photo of a Spitfire, a type of aircraft.",Spitfire,95
+"a photo of a Tornado, a type of aircraft.",Tornado,96
+"a photo of a Tu-134, a type of aircraft.",Tu-134,97
+"a photo of a Tu-154, a type of aircraft.",Tu-154,98
+"a photo of a Yak-42, a type of aircraft.",Yak-42,99
