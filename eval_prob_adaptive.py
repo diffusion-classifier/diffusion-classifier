@@ -132,7 +132,7 @@ def main():
     parser.add_argument('--split', type=str, default='train', choices=['train', 'test'], help='Name of split')
 
     # run args
-    parser.add_argument('--version', type=str, default='2-1', help='Stable Diffusion model version')
+    parser.add_argument('--version', type=str, default='2-0', help='Stable Diffusion model version')
     parser.add_argument('--img_size', type=int, default=512, choices=(256, 512), help='Number of trials per timestep')
     parser.add_argument('--batch_size', '-b', type=int, default=32)
     parser.add_argument('--n_trials', type=int, default=1, help='Number of trials per timestep')

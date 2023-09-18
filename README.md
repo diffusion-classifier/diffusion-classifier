@@ -26,14 +26,14 @@ If this takes too long, `conda config --set solver libmamba` sets conda to use t
 
 ```bash
 python eval_prob_adaptive.py --dataset cifar10 --split test --n_trials 1 \
-  --to_keep 10 5 1 --n_samples 50 100 500 --loss l1 \
+  --to_keep 5 1 --n_samples 50 500 --loss l1 \
   --prompt_path prompts/cifar10_prompts.csv
 ```
 This command reads potential prompts from a csv file and evaluates the epsilon prediction loss for each prompt using Stable Diffusion.
 This should work on a variety of GPUs, from as small as a 2080Ti or 3080 to as large as a 3090 or A6000. 
-Losses are saved separately for each test image in the log directory. For the command above, the log directory is `data/cifar10/v2-1_1trials_10_5_1keep_50_100_500samples_l1`. Accuracy can be computed by running: 
+Losses are saved separately for each test image in the log directory. For the command above, the log directory is `data/cifar10/v2-0_1trials_5_1keep_50_500samples_l1`. Accuracy can be computed by running:
 ```bash
-python scripts/print_acc.py data/cifar10/v2-1_1trials_10_5_1keep_50_100_500samples_l1
+python scripts/print_acc.py data/cifar10/v2-0_1trials_5_1keep_50_500samples_l1
 ```
 
 Commands to run Diffusion Classifier on each dataset are [here](commands.md). 

@@ -9,7 +9,7 @@ python eval_prob_adaptive.py --dataset food --split test --n_trials 1 \
 ### CIFAR-10
 ```bash
 python eval_prob_adaptive.py --dataset cifar10 --split test --n_trials 1 \
-  --to_keep 10 5 1 --n_samples 50 100 500 --loss l1 \
+  --to_keep 5 1 --n_samples 50 500 --loss l1 \
   --prompt_path prompts/cifar10_prompts.csv
 ```
 
@@ -37,7 +37,7 @@ python eval_prob_adaptive.py --dataset flowers --split test --n_trials 1 \
 ### STL-10
 ```bash
 python eval_prob_adaptive.py --dataset stl10 --split test --n_trials 1 \
-  --to_keep 5 1 --n_samples 100 1000 --loss l1 \
+  --to_keep 5 1 --n_samples 100 500 --loss l1 \
   --prompt_path prompts/stl10_prompts.csv
 ```
 
