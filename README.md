@@ -13,16 +13,14 @@ This is the official implementation of the ICCV 2023 paper [Your Diffusion Model
 
 The recent wave of large-scale text-to-image diffusion models has dramatically increased our text-based image generation abilities. These models can generate realistic images for a staggering variety of prompts and exhibit impressive compositional generalization abilities. Almost all use cases thus far have solely focused on sampling; however, diffusion models can also provide conditional density estimates, which are useful for tasks beyond image generation. In this paper, we show that the density estimates from large-scale text-to-image diffusion models like Stable Diffusion can be leveraged to perform zero-shot classification without any additional training. Our generative approach to classification, which we call **Diffusion Classifier**, attains strong results on a variety of benchmarks and outperforms alternative methods of extracting knowledge from diffusion models. Although a gap remains between generative and discriminative approaches on zero-shot recognition tasks, our diffusion-based approach has significantly stronger multimodal compositional reasoning ability than competing discriminative approaches. Finally, we use Diffusion Classifier to extract standard classifiers from class-conditional diffusion models trained on ImageNet. Our models achieve strong classification performance using only weak augmentations and exhibit qualitatively better "effective robustness" to distribution shift. Overall, our results are a step toward using generative over discriminative models for downstream tasks.
 
-## Code
-
-### Installation 
+## Installation
 Create a conda environment with the following command:
 ```bash
 conda env create -f environment.yml
 ```
 If this takes too long, `conda config --set solver libmamba` sets conda to use the `libmamba` solver and could speed up installation.
 
-### Zero-shot Classification with Stable Diffusion
+## Zero-shot Classification with Stable Diffusion
 
 ```bash
 python eval_prob_adaptive.py --dataset cifar10 --split test --n_trials 1 \
@@ -46,6 +44,31 @@ If evaluation on your use case is taking too long, there are a few options:
 1. Create a csv file with the prompts that you want to evaluate, making sure to match up the correct prompts with the correct class labels. See `scripts/write_cifar10_prompts.py` for an example. Note that you can use multiple prompts per class.
 2. Run the command above, changing the `--dataset` and `--prompt_path` flags to match your use case.
 3. Play around with the evaluation strategy on a small subset of the dataset to reduce evaluation time.
+
+
+## Compositional Reasoning on Winoground with Stable Diffusion
+### Additional installations
+```bash
+pip install datasets
+pip install git+https://github.com/openai/CLIP.git
+pip install open_clip_torch
+```
+
+### Running Diffusion Classifier or Contrastive Baselines
+To run Diffusion Classifier on Winoground:
+First, save a consistent set of noise (epsilon) that will be used for all image-caption pairs:
+```bash
+python scripts/save_noise.py
+```
+Then, evaluate on Winoground:
+```bash
+python run_winoground.py --model sd --version 2-0 --t_interval 1 --batch_size 32 --noise_path noise_1024.pt --randomize_noise --interpolation bicubic
+```
+To run CLIP or OpenCLIP:
+```bash
+python run_winoground.py --model clip --version ViT-L/14
+python run_winoground.py --model openclip --version ViT-H-14
+```
 
 ## Citation
 
