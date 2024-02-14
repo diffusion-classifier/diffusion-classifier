@@ -28,5 +28,8 @@ dependencies:
   - cuda-nvcc
   - pip:
     - git+https://github.com/modestyachts/ImageNetV2_pytorch
+    - datasets
+    - git+https://github.com/openai/CLIP.git
+    - open_clip_torch
 variables:
   CACHE_NUMBER: 0

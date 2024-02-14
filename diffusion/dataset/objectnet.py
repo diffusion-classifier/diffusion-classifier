@@ -1,7 +1,6 @@
 import os
 import json
 from pathlib import Path
-import PIL
 
 import numpy as np
 
@@ -71,11 +70,6 @@ class ObjectNetDataset(datasets.ImageFolder):
             sample = self.transform(sample)
         label = os.path.basename(os.path.dirname(path))
         return sample, self.label_map[label]
-        # return {
-        #     'images': sample,
-        #     'labels': self.label_map[label],
-        #     'image_paths': path
-        # }
 
 
 class ObjectNetBase(ImageNet):

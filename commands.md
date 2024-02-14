@@ -56,3 +56,34 @@ python eval_prob_adaptive.py --dataset objectnet --split test --n_trials 1 \
   --to_keep 25 10 5 1 --n_samples 50 100 500 1000 \
   --prompt_path prompts/objectnet_prompts.csv
 ```
+
+## Commands for Standard ImageNet Classification with DiT
+If you'd like to run with 512x512 DiT, add `--image-size 512` and change `noise_256.pt` to `noise_512.pt`.
+### ImageNet
+Run 1000 separate times, with CLS from 0-999
+```bash
+python eval_prob_dit.py  --dataset imagenet --split test \
+  --noise_path noise_256.pt --randomize_noise \
+  --batch_size 32 --cls CLS --t_interval 4 --extra dit256 --save_vb
+```
+### ImageNet-V2
+Run 1000 separate times, with CLS from 0-999
+```bash
+python eval_prob_dit.py  --dataset imagenetv2 --split test \
+  --noise_path noise_256.pt --randomize_noise \
+  --batch_size 32 --cls CLS --t_interval 4 --extra dit256 --save_vb
+```
+### ImageNet-A
+ImageNet-A only has 200 classes, so run this command with CLS from `IMAGENET_A_CLASSES` in [datasets.py](diffusion/datasets.py).
+```bash
+python eval_prob_dit.py  --dataset imagenetA --split test \
+  --noise_path noise_256.pt --randomize_noise \
+  --batch_size 32 --cls CLS --t_interval 4 --extra dit256 --save_vb
+```
+### ObjectNet
+ObjectNet only has 125 classes, so run this command with CLS from `OBJECTNET_CLASSES` in [datasets.py](diffusion/datasets.py).
+```bash
+python eval_prob_dit.py  --dataset objectnet --split test \
+  --noise_path noise_256.pt --randomize_noise \
+  --batch_size 32 --cls CLS --t_interval 4 --extra dit256 --save_vb
+```

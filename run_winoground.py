@@ -7,7 +7,6 @@ import open_clip
 import torch
 import torch.nn.functional as F
 from datasets import load_dataset
-# from eval_prob import eval_prob
 from diffusion.utils import LOG_DIR, TOKEN_PATH
 from diffusion.models import get_sd_model, get_scheduler_config
 from eval_prob_adaptive import get_transform, INTERPOLATIONS

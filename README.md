@@ -46,25 +46,45 @@ If evaluation on your use case is taking too long, there are a few options:
 3. Play around with the evaluation strategy on a small subset of the dataset to reduce evaluation time.
 
 
-## Compositional Reasoning on Winoground with Stable Diffusion
+## Standard ImageNet Classification with Class-conditional Diffusion Models
 ### Additional installations
+Within the `diffusion-classifier` folder, download the DiT repository
 ```bash
-pip install datasets
-pip install git+https://github.com/openai/CLIP.git
-pip install open_clip_torch
-```
+git clone git@github.com:facebookresearch/DiT.git
+````
 
-### Running Diffusion Classifier or Contrastive Baselines
+### Running Diffusion Classifier
+First, save a consistent set of noise (epsilon) that will be used for all image-class pairs:
+```bash
+python scripts/save_noise.py --img_size 256
+```
+Then, compute and save the epsilon-prediction error for each class:
+```bash
+python eval_prob_dit.py  --dataset imagenet --split test \
+  --noise_path noise_256.pt --randomize_noise \
+  --batch_size 32 --cls CLS --t_interval 4 --extra dit256 --save_vb
+```
+For example, for ImageNet, this would need to be run with CLS from 0 to 999. 
+This is currently a very expensive process, so we recommend using the `--subset_path` command to evaluate on a smaller subset of the dataset. 
+We also plan on releasing an adaptive version that greatly reduces the computation time per test image.
+
+Finally, compute the accuracy using the saved errors:
+```bash
+python scripts/print_dit_acc.py data/imagenet_dit256 --dataset imagenet
+``` 
+We show the commands to run DiT on all ImageNet variants [here](commands.md). 
+
+## Compositional Reasoning on Winoground with Stable Diffusion
 To run Diffusion Classifier on Winoground:
 First, save a consistent set of noise (epsilon) that will be used for all image-caption pairs:
 ```bash
-python scripts/save_noise.py
+python scripts/save_noise.py --img_size 512
 ```
 Then, evaluate on Winoground:
 ```bash
-python run_winoground.py --model sd --version 2-0 --t_interval 1 --batch_size 32 --noise_path noise_1024.pt --randomize_noise --interpolation bicubic
+python run_winoground.py --model sd --version 2-0 --t_interval 1 --batch_size 32 --noise_path noise_512.pt --randomize_noise --interpolation bicubic
 ```
-To run CLIP or OpenCLIP:
+To run CLIP or OpenCLIP baselines:
 ```bash
 python run_winoground.py --model clip --version ViT-L/14
 python run_winoground.py --model openclip --version ViT-H-14
